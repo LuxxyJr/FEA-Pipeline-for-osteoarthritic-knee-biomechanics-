@@ -1,0 +1,74 @@
+{
+  "femur_left": {
+    "moving_to_fixed_translation_mm": [
+      6.155083556456592,
+      2.5581601955409994,
+      4.880986454160544
+    ],
+    "moving_to_fixed_euler_xyz_deg": [
+      -0.0786702904894352,
+      0.8841582831009638,
+      5.663692834222792
+    ],
+    "moving_to_fixed_rotation_matrix": [
+      [
+        0.9949998254817015,
+        -0.09871017440842067,
+        0.015220011814804927
+      ],
+      [
+        0.09867743323203063,
+        0.99511527806415,
+        0.0028892099348304195
+      ],
+      [
+        -0.015430860705798905,
+        -0.001372891681290135,
+        0.9998799946525131
+      ]
+    ],
+    "transform_file": "results\\registration\\femur_left_with_insole_to_baseline.tfm"
+  },
+  "tibia_left": {
+    "moving_to_fixed_translation_mm": [
+      1.2292716249567635,
+      0.6379468045402836,
+      3.5763382602402585
+    ],
+    "moving_to_fixed_euler_xyz_deg": [
+      -3.615678879826375,
+      3.6237122516106446,
+      -3.556806362929102
+    ],
+    "moving_to_fixed_rotation_matrix": [
+      [
+        0.9960782886321772,
+        0.05793646416874364,
+        0.06686859528371232
+      ],
+      [
+        -0.06191408267009145,
+        0.9963343978053033,
+        0.05902892610462168
+      ],
+      [
+        -0.06320355435190422,
+        -0.06293753943051547,
+        0.9960141449034337
+      ]
+    ],
+    "transform_file": "results\\registration\\tibia_left_with_insole_to_baseline.tfm"
+  },
+  "tibia_relative_to_femur_insole_effect": {
+    "relative_euler_xyz_deg": [
+      -3.396102434325878,
+      2.7635604460025993,
+      -9.208873111002683
+    ],
+    "interpretation": {
+      "x_deg": "flexion_extension_like_axis",
+      "y_deg": "varus_valgus_like_axis",
+      "z_deg": "internal_external_tibial_rotation_like_axis"
+    }
+  }
+}

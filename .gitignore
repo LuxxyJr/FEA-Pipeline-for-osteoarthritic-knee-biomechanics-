@@ -1,0 +1,31 @@
+# Raw and derived medical data
+data/
+*.dcm
+*.nii
+*.nii.gz
+*.nrrd
+*.nhdr
+*.mha
+*.mhd
+*.stl
+*.msh
+
+# Local environment specifications
+environment*.yml
+requirements*.txt
+
+# Medical-image QC renders and bulky visual outputs
+results/*.png
+results/**/*.png
+
+# Python/cache/runtime noise
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Local/editor files
+.idea/
+.vscode/
+*.log
+*.tmp

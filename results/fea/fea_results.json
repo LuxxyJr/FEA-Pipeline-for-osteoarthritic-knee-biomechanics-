@@ -1,0 +1,21 @@
+{
+  "baseline": {
+    "tibial_rotation_deg": 0.00141,
+    "medial_disp_mean_mm": 0.00356,
+    "medial_disp_max_mm": 0.00658,
+    "acl_attachment_disp_mm": 0.0071
+  },
+  "with_insole": {
+    "tibial_rotation_deg": -0.00212,
+    "medial_disp_mean_mm": 0.00212,
+    "medial_disp_max_mm": 0.00676,
+    "acl_attachment_disp_mm": 0.00157
+  },
+  "intervention_delta": {
+    "tibial_rotation_deg": -0.00353,
+    "medial_disp_mean_mm": -0.00144,
+    "medial_disp_max_mm": 0.00018,
+    "acl_attachment_disp_mm": -0.00553
+  },
+  "geometric_tibial_rotation_deg": 8.83307
+}
